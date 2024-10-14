@@ -2,7 +2,7 @@
 
 new_vpn_host=$1
 option=$2
-vpn_routed_host_file="/Users/aghody/openvpn_profiles/vpn_routed_hosts.txt"
+vpn_routed_host_file="$HOME/openvpn_profiles/vpn_routed_hosts.txt"
 
 check_input() {
    if [ -z "$new_vpn_host" ]; then
